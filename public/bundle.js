@@ -3,19 +3,7 @@ var __process_env__ = {"NODE_ENV":"development"};
 FuseBox.pkg("default", {}, function(___scope___){
 ___scope___.file("index.js", function(exports, require, module, __filename, __dirname){
 
-require('./lib/_base.scss');
-require('./styles/base/_base.scss');
 require('./styles/styles.scss');
-});
-___scope___.file("lib/_base.scss", function(exports, require, module, __filename, __dirname){
-
-
-require("fuse-box-css")("/lib/_base.css");
-});
-___scope___.file("styles/base/_base.scss", function(exports, require, module, __filename, __dirname){
-
-
-require("fuse-box-css")("/styles/base/_base.css");
 });
 ___scope___.file("styles/styles.scss", function(exports, require, module, __filename, __dirname){
 

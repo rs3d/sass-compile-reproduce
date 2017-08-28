@@ -36,7 +36,7 @@ fuse.dev({
 
 fuse.bundle('bundle')
     .target('browser')
-    .watch(`(index.js|styles/**.scss)`)
+    .watch(`(index.js|styles/**.scss|styles/**/**.scss)`)
     .hmr()
     .instructions(`> [index.js]`);   
 
